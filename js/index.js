@@ -1,4 +1,5 @@
 import slideMenu from "./menu.js";
+import renderVideo from "./renderVideo.js";
 
 
 slideMenu({
@@ -8,3 +9,4 @@ slideMenu({
   closeTrigger: '.navigation__link, .navigation__close',
 });
 
+renderVideo();
