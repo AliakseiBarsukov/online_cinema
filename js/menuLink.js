@@ -39,7 +39,7 @@ const menuLink = () => {
         }
 
         if (target.classList.contains('get-nav__link_popular-tv')) {
-          getRatedTv('movie')
+          getRatedTv('tv')
           .then(data => renderCard(data.results))
         }
 
